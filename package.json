@@ -1,0 +1,21 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development --open -p 5000",
+    "build": "parcel build public/index.html --out-dir build --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

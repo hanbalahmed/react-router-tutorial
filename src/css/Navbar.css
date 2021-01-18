@@ -1,0 +1,9 @@
+.navbar {
+  background: linear-gradient(45deg, #170524, #411f41);
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+}
